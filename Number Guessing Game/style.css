@@ -1,0 +1,24 @@
+#label{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 2em;
+    color: hsl(6, 93%, 52%);
+    font-family: arial;
+    background-color: hsl(79, 83%, 5%);
+}
+
+#container{
+    text-align: center;
+}
+
+.number{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.25s;
+}
+
+.number:hover{
+    background-color:hsl(215, 44%, 85%) ;
+}
